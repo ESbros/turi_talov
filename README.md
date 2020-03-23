@@ -20,6 +20,7 @@ Una vez activado el ambiente se puede entrar a cualquier directorio
 Cuando se pase un directorio, ***no poner '/' al final***.
  
 *Exm(correcto): desktop/carpeta*
+
 *Exm(incorrecto): desktop/carpeta/*
 
 ## 2. Join Annotations
