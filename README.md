@@ -2,7 +2,7 @@
 
 Python scripts using Turi library.
 
-
+# Seccion Uno
 ## 1. Start Python environment
 
 Acceder ***(usando comando "cd")*** hasta directorio donde se encuantre el archivo ***bin***, luego usar comando: ***source bin/activate.***
@@ -14,7 +14,7 @@ Una vez activado el ambiente se puede entrar a cualquier directorio
  Abrir el directorio que contiene los scripts en cualquier editor de texto, ***cmd + o***.
  
  
-### Seccion dos 
+# Seccion dos 
  *Nota: jsons_folder, save_dir, img_dir, dir_frame son las unicas variables que se deben modificar, todas unicamente especifican la direccion en donde se encuentra el archivo o carpeta a utilizar.*
  *Cuando se pase un directorio, no poner '/' al final.
  *Exm(correcto): desktop/carpeta
