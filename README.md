@@ -5,29 +5,29 @@ Python scripts using Turi library.
 
 ## 1. Start Python environment
 
-Acceder (usando comando "cd") hasta directorio donde se encuantre el archivo **bin**, luego usar comando: **source bin/activate.**
+Acceder ***(usando comando "cd")*** hasta directorio donde se encuantre el archivo ***bin***, luego usar comando: ***source bin/activate.***
 Una vez activado el ambiente se puede entrar a cualquier directorio
 
 
 ## 1.1 Open Text Editor
 
- Abrir el directorio que contiene los scripts en cualquier editor de texto, **cmd + o**.
-
+ Abrir el directorio que contiene los scripts en cualquier editor de texto, ***cmd + o***.
+ 
+ 
+ *Nota: jsons_folder, save_dir, img_dir, dir_frame son las unicas variables que se deben modificar, todas unicamente especifican la direccion en donde se encuentra el archivo o carpeta a utilizar.*
+ *Cuando se pase un directorio, no poner '/' al final.
+ *Exm(correcto): desktop/carpeta
+ *Exm(incorrecto): desktop/carpeta/
 
 ## 2. Join Annotations
  
 ### *join_annotations.py*
-Si existen **annotations (json)** individuales que se quieran consolidar en uno solo. *"join_annotations.py"* une los jsons individuales y crea un solo json que contiene a todos.
+Si existen ***annotations (json)*** individuales que se quieran consolidar en uno solo. *"join_annotations.py"* une los jsons individuales y crea un solo json que contiene a todos.
  
- *Nota: jsons_folder, save_dir, img_dir, dir_frame son las unicas variables que se deben modificar, todas unicamente especifican la direccion en donde se encuentra el archivo o carpeta a utilizar.*
  ### jsons_folder = pasar la direccion de la carpeta en donde se encuentran los jsons individuales
  Exm: 'desktop/carpeta_jsons_individuales'
  ### save_dir: directorio en donde se quiere guardar el archivo json consolidado
  Exm: 'desktop/carpeta_json_consolidado' 
- 
- ### Ojo, cuando se pase un directorio, no poner '/' al final.
- Exm(correcto): desktop/carpeta
- Exm(incorrecto): desktop/carpeta/
  
  
  ## 3. Get SFrame
