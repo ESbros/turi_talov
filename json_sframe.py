@@ -1,7 +1,9 @@
 import turicreate as tc
 
-img_dir = '/Users/erik/Desktop/turi/datasets/test_images'
-json_dir = '/Users/erik/Desktop/turi/datasets/annotations.json'
+img_dir = 'directory_to_folder_containing_images exm:(desktop/dolar_images)'
+json_dir = 'directory_to_json_file exm:(desktop/annotations.json)'
+
+save_dir = 'directory_to_save_sframe exm:(desktop/sframe_folder)'
 
 
 img_shape = tc.image_analysis.load_images(img_dir, with_path=True)
@@ -30,4 +32,4 @@ sf_join = sf_anns.join(img_shape, how='inner')
 sf_join = sf_join.remove_column('path')
 print(sf_join)
 
-sf_join.save('/Users/erik/Desktop/turi/datasets/annotations.sframe')
+sf_join.save(save_dir + '/' + 'annotations.sframe')

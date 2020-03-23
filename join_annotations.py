@@ -2,7 +2,9 @@ import os
 import cv2
 import json
 
-jsons_folder = 'Path_to_folder_containig_json_files'  
+jsons_folder = 'directory_to_folder_containing_jsons exm:(desktop/jsons)'  
+save_dir = 'directory_to_save_joined_json exm:(desktop/joined_anns_folder)'
+
 file_names = os.listdir(image_folder)
 join_annotations = []
 
@@ -21,5 +23,5 @@ print('Numero de JSONs Procesados:', count)
 print('Numero de Imagenes:', len(join_annotations))
 
 json_file = json.dumps(join_annotations)
-with open('/Users/edsg/Desktop/JOIN.json', 'w') as f:
+with open(save_dir + '/' + 'joined_annotations.json', 'w') as f:
     f.write(json_file)
