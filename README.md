@@ -19,7 +19,6 @@ Una vez activado el ambiente se puede entrar a cualquier directorio
 ### *join_annotations.py*
 Si existen annotations (json) individuales que se quieran consolidar en uno solo. "join_annotations.py" une los jsons individuales y crea un solo json que contiene a todos.
  
- Uso: especificar directorios
  ### jsons_folder: pasar la direccion de la carpeta en donde se encuentran los jsons individuales
  Exm: 'desktop/carpeta_jsons_individuales'
  ### save_dir: directorio en donde se quiere guardar el archivo json consolidado
@@ -34,7 +33,6 @@ Si existen annotations (json) individuales que se quieran consolidar en uno solo
  
  ### *json_sframe.py*
  Convertir annotations (json format) a sframe (estructura requerida por Turi).
- 
  ### img_dir = direccion a la carpeta que contiene todas la imagenes
  Exm: 'desktop/dolar_images'
  ### json_file_dir = direccion al archivo json consolidado
