@@ -16,7 +16,7 @@ Una vez activado el ambiente se puede entrar a cualquier directorio
  
 # Seccion dos 
  *Nota: jsons_folder, save_dir, img_dir, dir_frame son las unicas variables que se deben modificar, todas unicamente especifican la direccion en donde se encuentra el archivo o carpeta a utilizar.*
- *Cuando se pase un directorio, no poner '/' al final.
+ *Cuando se pase un directorio, no poner '/' al final.*
  *Exm(correcto): desktop/carpeta
  *Exm(incorrecto): desktop/carpeta/
 
