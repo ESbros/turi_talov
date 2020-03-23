@@ -4,7 +4,7 @@ sf_dir = 'directory to sframe directory exm:(desktop/annotations.sframe)'
 save_model_dir = 'directory where model will be saved exm:(desktop/model_folder)'
 
 # Load the data
-data = tc.SFrame('/Users/erik/Desktop/turi/datasets/annotations.sframe')
+data = tc.SFrame(sf_dir)
 
 # Make a train-test split
 train_data, test_data = data.random_split(0.8)

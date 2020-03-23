@@ -1,7 +1,7 @@
 import turicreate as tc
 
 img_dir = 'directory_to_folder_containing_images exm:(desktop/dolar_images)'
-json_dir = 'directory_to_json_file exm:(desktop/annotations.json)'
+json_file_dir = 'directory_to_json_file exm:(desktop/annotations.json)'
 
 save_dir = 'directory_to_save_sframe exm:(desktop/sframe_folder)'
 
@@ -10,7 +10,7 @@ img_shape = tc.image_analysis.load_images(img_dir, with_path=True)
 #print(img_shape)
 
 
-sf_anns = tc.SFrame.read_json(json_dir, orient='records')
+sf_anns = tc.SFrame.read_json(json_file_dir, orient='records')
 sf_anns = sf_anns.rename({'image':'name'})
 
 

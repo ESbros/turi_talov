@@ -1,6 +1,8 @@
 import turicreate as tc
 
-data = tc.SFrame('directory_to_.sframe')
+dir_sframe = 'directory_to_.sframe exm: (desktop/annotation.sframe)'
+
+data = tc.SFrame(dir_sframe)
 
 data['image_with_ground_truth'] = tc.object_detector.util.draw_bounding_boxes(data["image"], data["annotations"])
 
