@@ -57,7 +57,7 @@ Si existen ***annotations (json)*** individuales que se quieran consolidar en un
  Entrenar modelo en Turi usando estrucutra de datos (.sframe)
  ### sf_dir = 'direccion de la carpeta .sframe'
  ### save_model_dir = 'direccion en donde el modelo sera guardado'
- ### * Linea 13 de train_model.py 
+ ### *Linea 13 de train_model.py 
      model = tc.object_detector.create(train_data, max_iterations=1000)
      max_iterations puede ser modificado para determinar el numero de iteraciones en el entrenamiento
  
