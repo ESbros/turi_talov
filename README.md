@@ -16,7 +16,7 @@ Una vez activado el ambiente se puede entrar a cualquier directorio
 
 ## 2. Join Annotations
  
-### join_annotations.py
+### *join_annotations.py*
 Si existen annotations (json) individuales que se quieran consolidar en uno solo. "join_annotations.py" une los jsons individuales y crea un solo json que contiene a todos.
  
  Uso: especificar directorios
@@ -32,7 +32,7 @@ Si existen annotations (json) individuales que se quieran consolidar en uno solo
  
  ## 3. Get SFrame
  
- ### json_sframe.py
+ ### *json_sframe.py*
  Convertir annotations (json format) a sframe (estructura requerida por Turi).
  
  ### img_dir = direccion a la carpeta que contiene todas la imagenes
@@ -45,6 +45,7 @@ Si existen annotations (json) individuales que se quieran consolidar en uno solo
  
  ## 4. Ground Truth
  
+ ### *ground_truth.py*
  Visualizar el bounding box seleccionado en la imagen correspondiente
  ### dir_sframe: direccion a la carpeta .sframe
  Exm: 'desktop/annotation.sframe'
@@ -52,6 +53,7 @@ Si existen annotations (json) individuales que se quieran consolidar en uno solo
  
  ## 5. Train Model
  
+ ### *train_model.py*
  Entrenar modelo en Turi usando estrucutra de datos (.sframe)
  ### sf_dir = 'direccion de la carpeta .sframe'
  ### save_model_dir = 'direccion en donde el modelo sera guardado'
