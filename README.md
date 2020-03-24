@@ -6,14 +6,14 @@
 
  ## Virtual Envs
   ### Install virtualenv
-    *comando: pip install virtualenv*
+    pip install virtualenv
   ### Crear una carpeta en donde se creara el ambiente virtual
-    *comando: mkdir python_turi_env*
+    mkdir python_turi_env
   *Nota: la carpeta puede tener cualquier nombre.*
   ### Acceder a la carpeta
-    *comando: cd python_turi_env*
+    cd python_turi_env
   ### Crear ambiente virtual
-    *comando: virtualenv name_env*  
+    virtualenv name_env
   
   *Nota: puede ser cualquier nombre, ejm(virtualenv VirtEnvPy).*
   
@@ -22,21 +22,21 @@
   ### Activar ambiente
   Una vez dentro de la carpeta, y una vez que se visualice el archivo **bin**.
   
-    *comando: source bin/activate*
+    source bin/activate
   ### Desactivar Ambiente
-    *comando: deactivate*
+    deactivate
  
   ### Install Dependencies
    Una vez activado el ambiente, se puede usar el *comando: pip list* el cual lista todas las librerias installadas en el      ambiente.
   *Dependencias Necesarias*
-  Numpy:
-  *comando: pip install numpy*
-  Matplotlib
-  *comando: pip install -U matplotlib*
-  OpenCV:
-  *comando: pip install opencv-python* 
-  Turi:
-  *comando: pip install -U turicreate*
+  ### Numpy:
+    pip install numpy
+  ### Matplotlib
+    pip install -U matplotlib
+  ### OpenCV:
+    pip install opencv-python
+  ### Turi:
+    pip install -U turicreate
   
   Ejecutar *comando: pip list* y comprobar que la libreria este instalada.
 
