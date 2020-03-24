@@ -13,11 +13,14 @@
   ### Acceder a la carpeta
   *comando: cd python_turi_env*
   ### Crear ambiente virtual
-  *comando: virtualenv name_env*   
+  *comando: virtualenv name_env*  
+  
   *Nota: puede ser cualquier nombre, ejm(virtualenv VirtEnvPy).*
+  
   Se crea un carpeta con el nombre elegido, acceder a la carpeta donde se encontraran los siguientes archivos: **bin            include    lib        pyvenv.cfg**
   ### Activar ambiente
-  Una vez dentro de la carpeta, y una vez que se visualice el archivo **bin**
+  Una vez dentro de la carpeta, y una vez que se visualice el archivo **bin**.
+  
   *comando: source bin/activate*
   ### Desactivar Ambiente
   *comando: deactivate*
