@@ -20,7 +20,7 @@
   Una vez dentro de la carpeta, y una vez que se visualice el archivo **bin**
   *comando: source bin/activate*
   ### Desactivar Ambiente
-  **
+  *comando: deactivate*
  
   ### Install Dependencies
   Una vez activado el ambiente, se puede usar el *comando: pip list* el cual lista todas las librerias installadas en el    ambiente.
