@@ -30,13 +30,13 @@ Python scripts using Turi library.
   ### Install Dependencies
    Una vez activado el ambiente, se puede usar el *comando: pip list* el cual lista todas las librerias installadas en el      ambiente.
   *Dependencias Necesarias*
-  ### Numpy:
+  #### Numpy:
     pip install numpy
-  ### Matplotlib
+  #### Matplotlib
     pip install -U matplotlib
-  ### OpenCV:
+  #### OpenCV:
     pip install opencv-python
-  ### Turi:
+  #### Turi:
     pip install -U turicreate
   
   Ejecutar *comando: pip list* y comprobar que la libreria este instalada.
