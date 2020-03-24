@@ -17,7 +17,7 @@ Python scripts using Turi library.
   ### Crear ambiente virtual
     virtualenv name_env
   
-  *Nota: puede ser cualquier nombre, ejm(virtualenv VirtEnvPy).*
+  *Nota: puede ser cualquier nombre, ejm: (virtualenv VirtEnvPy).*
   
   Se crea un carpeta con el nombre elegido, acceder a la carpeta donde se encontrarán los siguientes archivos: 
   **bin            include    lib        pyvenv.cfg**
