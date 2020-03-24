@@ -1,5 +1,39 @@
 # Object Detector Turi
 
+# Seccion Cero
+
+ ## 0. Install Virtual Envs ans Dependencies
+
+ ## Virtual Envs
+  ### Install virtualenv
+  *comando: pip install virtualenv*
+  ### Crear una carpeta en donde se creara el ambiente virtual
+  *comando: mkdir python_turi_env*
+  ### Acceder a la carpeta
+  *comando: cd python_turi_env*
+  ### Crear ambiente virtual
+  *comando: virtualenv name_env*   *Nota: puede ser cualquier nombre, ejm(virtualenv VirtEnvPy).*
+  Se crea un carpeta con el nombre elegido, acceder a la carpeta donde se encontraran los siguientes archivos: **bin            include    lib        pyvenv.cfg**
+  ### Activar ambiente
+  Una vez dentro de la carpeta, y una vez que se visualice el archivo **bin**
+  *comando: source bin/activate*
+  ### Desactivar Ambiente
+  **
+ 
+  ### Install Dependencies
+  Una vez activado el ambiente, se puede usar el *comando: pip list* el cual lista todas las librerias installadas en el    ambiente.
+  *Dependencias Necesarias*
+  Numpy:
+  *comando: pip install numpy*
+  Matplotlib
+  *comando: pip install -U matplotlib*
+  OpenCV:
+  *comando: pip install opencv-python* 
+  Turi:
+  *comando: pip install -U turicreate*
+  
+  Ejecutar *comando: pip list* y comprobar que la libreria este instalada.
+
 Python scripts using Turi library.
 
 # Seccion Uno
