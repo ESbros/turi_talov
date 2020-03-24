@@ -9,10 +9,12 @@
   *comando: pip install virtualenv*
   ### Crear una carpeta en donde se creara el ambiente virtual
   *comando: mkdir python_turi_env*
+  *Nota: la carpeta puede tener cualquier nombre.*
   ### Acceder a la carpeta
   *comando: cd python_turi_env*
   ### Crear ambiente virtual
-  *comando: virtualenv name_env*   *Nota: puede ser cualquier nombre, ejm(virtualenv VirtEnvPy).*
+  *comando: virtualenv name_env*   
+  *Nota: puede ser cualquier nombre, ejm(virtualenv VirtEnvPy).*
   Se crea un carpeta con el nombre elegido, acceder a la carpeta donde se encontraran los siguientes archivos: **bin            include    lib        pyvenv.cfg**
   ### Activar ambiente
   Una vez dentro de la carpeta, y una vez que se visualice el archivo **bin**
