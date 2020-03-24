@@ -1,5 +1,7 @@
 # Object Detector Turi
 
+Python scripts using Turi library.
+
 # Seccion Cero
 
  ## 0. Install Virtual Envs ans Dependencies
@@ -39,7 +41,6 @@
   
   Ejecutar *comando: pip list* y comprobar que la libreria este instalada.
 
-Python scripts using Turi library.
 
 # Seccion Uno
 ## 1. Start Python environment
