@@ -6,14 +6,14 @@
 
  ## Virtual Envs
   ### Install virtualenv
-  *comando: pip install virtualenv*
+    *comando: pip install virtualenv*
   ### Crear una carpeta en donde se creara el ambiente virtual
-  *comando: mkdir python_turi_env*
+    *comando: mkdir python_turi_env*
   *Nota: la carpeta puede tener cualquier nombre.*
   ### Acceder a la carpeta
-  *comando: cd python_turi_env*
+    *comando: cd python_turi_env*
   ### Crear ambiente virtual
-  *comando: virtualenv name_env*  
+    *comando: virtualenv name_env*  
   
   *Nota: puede ser cualquier nombre, ejm(virtualenv VirtEnvPy).*
   
@@ -22,12 +22,12 @@
   ### Activar ambiente
   Una vez dentro de la carpeta, y una vez que se visualice el archivo **bin**.
   
-  *comando: source bin/activate*
+    *comando: source bin/activate*
   ### Desactivar Ambiente
-  *comando: deactivate*
+    *comando: deactivate*
  
   ### Install Dependencies
-  Una vez activado el ambiente, se puede usar el *comando: pip list* el cual lista todas las librerias installadas en el    ambiente.
+   Una vez activado el ambiente, se puede usar el *comando: pip list* el cual lista todas las librerias installadas en el      ambiente.
   *Dependencias Necesarias*
   Numpy:
   *comando: pip install numpy*
@@ -59,8 +59,8 @@ Una vez activado el ambiente se puede entrar a cualquier directorio
  
 Cuando se pase un directorio, ***no poner '/' al final***.
  
-*Exm(correcto): desktop/carpeta*
-*Exm(incorrecto): desktop/carpeta/*
+    *Exm(correcto): desktop/carpeta*
+    *Exm(incorrecto): desktop/carpeta/*
 
 ## 2. Join Annotations
  
@@ -68,9 +68,9 @@ Cuando se pase un directorio, ***no poner '/' al final***.
 Si existen ***annotations (json)*** individuales que se quieran consolidar en uno solo. *"join_annotations.py"* une los jsons individuales y crea un solo json que contiene a todos.
  
  ### jsons_folder = pasar la direccion de la carpeta en donde se encuentran los jsons individuales
- Exm: 'desktop/carpeta_jsons_individuales'
+    Exm: 'desktop/carpeta_jsons_individuales'
  ### save_dir: directorio en donde se quiere guardar el archivo json consolidado
- Exm: 'desktop/carpeta_json_consolidado' 
+    Exm: 'desktop/carpeta_json_consolidado' 
  
  
  ## 3. Get SFrame
@@ -78,11 +78,11 @@ Si existen ***annotations (json)*** individuales que se quieran consolidar en un
  ### *json_sframe.py*
  Convertir annotations (json format) a sframe (estructura requerida por Turi).
  ### img_dir = direccion a la carpeta que contiene todas la imagenes
- Exm: 'desktop/dolar_images'
+    Exm: 'desktop/dolar_images'
  ### json_file_dir = direccion al archivo json consolidado
- Exm: 'desktop/annotations.json'
+    Exm: 'desktop/annotations.json'
  ### save_dir = direccion en donde la carpeta sframe sera guardada
- Exm: 'desktop/sframe_folder'
+    Exm: 'desktop/sframe_folder'
  
  
  ## 4. Ground Truth
@@ -90,7 +90,7 @@ Si existen ***annotations (json)*** individuales que se quieran consolidar en un
  ### *ground_truth.py*
  Visualizar el bounding box seleccionado en la imagen correspondiente
  ### dir_sframe: direccion a la carpeta .sframe
- Exm: 'desktop/annotation.sframe'
+    Exm: 'desktop/annotation.sframe'
  
  
  ## 5. Train Model
