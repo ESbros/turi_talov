@@ -17,15 +17,14 @@
   
   *Nota: puede ser cualquier nombre, ejm(virtualenv VirtEnvPy).*
   
-  Se crea un carpeta con el nombre elegido, acceder a la carpeta donde 
-  se encontrarán los siguientes archivos: **bin            include    lib        pyvenv.cfg**
+  Se crea un carpeta con el nombre elegido, acceder a la carpeta donde se encontrarán los siguientes archivos: 
+  **bin            include    lib        pyvenv.cfg**
+  
   ### Activar ambiente
   Una vez dentro de la carpeta, y una vez que se visualice el archivo **bin**.
-  
     source bin/activate
   ### Desactivar Ambiente
     deactivate
- 
   ### Install Dependencies
    Una vez activado el ambiente, se puede usar el *comando: pip list* el cual lista todas las librerias installadas en el      ambiente.
   *Dependencias Necesarias*
