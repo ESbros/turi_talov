@@ -38,6 +38,8 @@ Python scripts using Turi library.
     pip install opencv-python
   #### Turi:
     pip install -U turicreate
+  ### Core M:
+    pip install -U coremltools
   
   Ejecutar *comando: pip list* y comprobar que la libreria este instalada.
 
