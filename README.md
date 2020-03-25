@@ -107,8 +107,8 @@ Si existen ***annotations (json)*** individuales que se quieran consolidar en un
      
  ## 6. Add Metadata
  
- ### *train_model.py*
- En en script *train_model.py*, en las lineas 17,18 y 19 se puede especficar la metadata del model. Author, licencia y descripcion corta.
+ ### *model_metadata.py*
+ En en script *model_metadata.py*, en las lineas 9, 10, 11, 12 y 13 se puede especficar la metadata del model. Author, licencia, version y descripcion corta.
  ###
     model.author = 'Talov'
     model.license = 'Talov Object Detector 2019.'
