@@ -104,3 +104,12 @@ Si existen ***annotations (json)*** individuales que se quieran consolidar en un
  ### *Linea 13 de train_model.py* 
      model = tc.object_detector.create(train_data, max_iterations=1000)
      max_iterations puede ser modificado para determinar el numero de iteraciones en el entrenamiento
+     
+ ## 6. Add Metadata
+ 
+ ### *train_model.py*
+ En en script *train_model.py*, en las lineas 17,18 y 19 se puede especficar la metadata del model. Author, licencia y descripcion corta.
+ ###
+    model.author = 'Talov'
+    model.license = 'Talov Object Detector 2019.'
+model.short_description = 'Bills object detector.'
