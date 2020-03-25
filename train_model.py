@@ -12,6 +12,11 @@ train_data, test_data = data.random_split(0.8)
 # Create a model
 model = tc.object_detector.create(train_data, max_iterations=1000)
 
+# Add Metadata
+model.author = 'Talov'
+model.license = 'Talov Object Detector 2019.'
+model.short_description = 'Bills object detector.'
+
 # Save predictions to an SArray
 predictions = model.predict(test_data)
 
