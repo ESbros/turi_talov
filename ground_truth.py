@@ -1,6 +1,6 @@
 import turicreate as tc
 
-dir_sframe = 'directory_to_.sframe exm: (desktop/annotation.sframe)'
+dir_sframe = '/Users/erik/Desktop/turi/ig02.sframe'#'directory_to_.sframe exm: (desktop/annotation.sframe)'
 
 data = tc.SFrame(dir_sframe)
 
