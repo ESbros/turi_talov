@@ -110,10 +110,11 @@ Si existen ***annotations (json)*** individuales que se quieran consolidar en un
  ### *model_metadata.py*
  En en script *model_metadata.py*, en las lineas 9, 10, 11, 12 y 13 se puede especficar la metadata del model. Author, licencia, version y descripcion corta.
 
- ### mlmodel_path
-    mlmodel_path = '/Users/erik/Desktop/turi/detector.mlmodel'
-    save_dir = '/Users/erik/Desktop/turi'
- 
+ ### mlmodel_path = 'direccion al modelo .mlmodel'
+ ### save_dir = 'direccion en donde se quiere guardar el modelo(metadata)'
+    Exm: mlmodel_path = '/Users/erik/Desktop/turi/detector.mlmodel'
+    Exm: save_dir = '/Users/erik/Desktop/turi'
+ ###
     model.author = 'Talov'
     model.license = 'Talov Object Detector 2019.'
     model.short_description = 'Bills object detector.'
