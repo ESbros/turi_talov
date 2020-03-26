@@ -1,17 +1,17 @@
-# Object Detector Turi
+# Deteccion de objectos usando Turi
 
 Python scripts using Turi library.
 
 # Seccion Cero
 
- ## 0. Install Virtual Envs ans Dependencies
+ ## 0. Instalar Virtual Envs y Dependencias
 
  ## Virtual Envs
-  ### Install virtualenv
+  ### Instalar virtualenv
     pip install virtualenv
-  ### Crear una carpeta en donde se creara el ambiente virtual
+  ### Crear una carpeta en donde se creará el ambiente virtual
     mkdir python_turi_env
-  *Nota: la carpeta puede tener cualquier nombre.*
+  *Nota: la carpeta puede tener cualquier nombre*
   ### Acceder a la carpeta
     cd python_turi_env
   ### Crear ambiente virtual
@@ -27,7 +27,7 @@ Python scripts using Turi library.
     source bin/activate
   ### Desactivar Ambiente
     deactivate
-  ### Install Dependencies
+  ### Instalar Dependencies
    Una vez activado el ambiente, se puede usar el *comando: pip list* el cual lista todas las librerias installadas en el      ambiente.
   *Dependencias Necesarias*
   #### Numpy:
@@ -45,18 +45,18 @@ Python scripts using Turi library.
 
 
 # Seccion Uno
-## 1. Start Python environment
+## 1. Activar ambiente virtual en Python
 
 Acceder ***(usando comando "cd")*** hasta directorio donde se encuantre el archivo ***bin***, luego usar comando: ***source bin/activate.***
 Una vez activado el ambiente se puede entrar a cualquier directorio
 
 
-## 1.1 Open Text Editor
+## 1.1 Abrir editor de texto
 
  Abrir el directorio que contiene los scripts en cualquier editor de texto, ***cmd + o***.
  
  
-# Seccion dos 
+# Seccion Dos 
  *Nota: jsons_folder, save_dir, img_dir, dir_frame, **etc**. son las unicas variables que se deben modificar, todas unicamente especifican la direccion en donde se encuentra el archivo o carpeta a utilizar.*
  
 Cuando se pase un directorio, ***no poner '/' al final***.
@@ -64,7 +64,7 @@ Cuando se pase un directorio, ***no poner '/' al final***.
     Exm(correcto): desktop/carpeta
     Exm(incorrecto): desktop/carpeta/
 
-## 2. Join Annotations
+## 2. Unir Annotations
  
 ### *join_annotations.py*
 Si existen ***annotations (json)*** individuales que se quieran consolidar en uno solo. *"join_annotations.py"* une los jsons individuales y crea un solo json que contiene a todos.
@@ -75,7 +75,7 @@ Si existen ***annotations (json)*** individuales que se quieran consolidar en un
     Exm: 'desktop/carpeta_json_consolidado' 
  
  
- ## 3. Get SFrame
+ ## 3. Crear SFrame
  
  ### *json_sframe.py*
  Convertir annotations (json format) a sframe (estructura requerida por Turi).
@@ -95,7 +95,7 @@ Si existen ***annotations (json)*** individuales que se quieran consolidar en un
     Exm: 'desktop/annotation.sframe'
  
  
- ## 5. Train Model
+ ## 5. Entrenar modelo
  
  ### *train_model.py*
  Entrenar modelo en Turi usando estrucutra de datos (.sframe)
@@ -105,11 +105,15 @@ Si existen ***annotations (json)*** individuales que se quieran consolidar en un
      model = tc.object_detector.create(train_data, max_iterations=1000)
      max_iterations puede ser modificado para determinar el numero de iteraciones en el entrenamiento
      
- ## 6. Add Metadata
+ ## 6. Añadir Metadata
  
  ### *model_metadata.py*
  En en script *model_metadata.py*, en las lineas 9, 10, 11, 12 y 13 se puede especficar la metadata del model. Author, licencia, version y descripcion corta.
- ###
+
+ ### mlmodel_path
+    mlmodel_path = '/Users/erik/Desktop/turi/detector.mlmodel'
+    save_dir = '/Users/erik/Desktop/turi'
+ 
     model.author = 'Talov'
     model.license = 'Talov Object Detector 2019.'
     model.short_description = 'Bills object detector.'
