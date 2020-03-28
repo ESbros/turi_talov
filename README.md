@@ -134,7 +134,7 @@ Si existen ***annotations (json)*** individuales que se quieran consolidar en un
     
 # Imprimir Metricas
 ### *model_metrics.py*
-El siguiente script imprime las metricas de un modelo entrenado. La matriz de confusion que es la nos interesa se imprime completa.
+El siguiente script imprime las metricas de un modelo entrenado. Imprime la matriz de confusión completa.
 
 ### model_dir = 'pasar la direccion del model .model'
     Exm(correcto): model_dir = '/Users/erik/Desktop/signs_detector.model'
