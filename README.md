@@ -127,4 +127,9 @@ Si existen ***annotations (json)*** individuales que se quieran consolidar en un
     folder_folders_signs = '/Users/erik/Desktop/ASL'  
  ### save_dir = 'direccion de la carpeta en donde se quiere guardar la carpeta .sframe'
     save_dir = '/Users/erik/Desktop'
+    
+ ### *train_sgn_model.py*
+ ### data = 'diraccion de la carpeta .sframe que se creo previamente'
+    data = tc.SFrame('/Users/erik/Desktop/signs/signs_csv+sframe/signs.sframe')
+
 
