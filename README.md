@@ -133,7 +133,7 @@ Si existen ***annotations (json)*** individuales que se quieran consolidar en un
     data = tc.SFrame('/Users/erik/Desktop/signs/signs_csv+sframe/signs.sframe')
     
 # Imprimir Metricas
-### *metrics.py*
+### *model_metrics.py*
 El siguiente script imprime las metricas de un modelo entrenado. La matriz de confusion que es la nos interesa se imprime completa.
 
 ### model_dir = 'pasar la direccion del model .model'
