@@ -20,7 +20,7 @@ metrics = model.evaluate(test_data)
 print(metrics)
 
 # Save the model for later use in Turi Create
-model.save('detector_turi.model')
+model.save(save_model_dir + '/' + 'signs_detector.model')
 
 # Export for use in Core ML
 model.export_coreml(save_model_dir + '/' + 'detector.mlmodel')
