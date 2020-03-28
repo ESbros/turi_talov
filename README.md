@@ -118,3 +118,6 @@ Si existen ***annotations (json)*** individuales que se quieran consolidar en un
     model.author = 'Talov'
     model.license = 'Talov Object Detector 2020.'
     model.short_description = 'Bills object detector.'
+    
+# Clasificacion de Actividades
+
