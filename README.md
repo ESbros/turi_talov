@@ -120,5 +120,11 @@ Si existen ***annotations (json)*** individuales que se quieran consolidar en un
     model.short_description = 'Bills object detector.'
     
 # Clasificacion de Actividades
-
+ Los siguientes scripts permiten consolidar un DataFrame (.sframe) apartir de archivos(.csv) que describen señas y entrenar un clasificador de actividad usando Turi.
+ ### *final_csv_sframe.py*
+ En este scripts se transforma las señas en archivos(.csv) y se crea un el DataFrame requerido en Turi.
+ ### folder_folders_signs = 'direccion de la carpeta en donde se encuentra la carpeta que contiene las carpetas con las señales'
+    folder_folders_signs = '/Users/erik/Desktop/ASL'  
+ ### save_dir = 'direccion de la carpeta en donde se quiere guardar la carpeta .sframe'
+    save_dir = '/Users/erik/Desktop'
 
