@@ -5,16 +5,22 @@ Python scripts using Turi library.
 # Seccion Cero
 
  ## 0. Instalar Virtual Envs y Dependencias
+ ## Installar Python
+  #### Python con Brew
+    brew install python3
+ 
 
  ## Virtual Envs
   ### Instalar virtualenv
-    pip install virtualenv
+    pip3 install virtualenv
   ### Crear una carpeta en donde se creará el ambiente virtual
     mkdir python_turi_env
   *Nota: la carpeta puede tener cualquier nombre*
   ### Acceder a la carpeta
     cd python_turi_env
   ### Crear ambiente virtual
+    virtualenv -p python3 name_env
+    or
     virtualenv name_env
   
   *Nota: puede ser cualquier nombre, ejm: (virtualenv VirtEnvPy).*
@@ -24,7 +30,8 @@ Python scripts using Turi library.
   
   ### Activar ambiente
   Una vez dentro de la carpeta, y una vez que se visualice el archivo **bin**.
-    source bin/activate
+  
+     source bin/activate
   ### Desactivar Ambiente
     deactivate
   ### Instalar Dependencies
