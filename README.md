@@ -12,6 +12,7 @@ Python scripts using Turi library.
 
  ## Virtual Envs
   ### Instalar virtualenv
+  *Nota: pip3 viene instalado con Python3*
     pip3 install virtualenv
   ### Crear una carpeta en donde se creará el ambiente virtual
     mkdir python_turi_env
