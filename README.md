@@ -6,7 +6,7 @@ Python scripts using Turi library.
 
  ## 0. Instalar Virtual Envs y Dependencias
  ## Installar Python
-  #### Python con Brew
+  #### Instalar python con brew
     brew install python3
  
 
